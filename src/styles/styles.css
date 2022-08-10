@@ -8,7 +8,6 @@
 	src:  url('fonts/LinLibertine_DR.otf');
 	font-weight: normal;
 	font-style: normal;
-	
 }
 @font-face{
 	font-family: 'LinLibertine_I';
@@ -18,28 +17,19 @@
 }
 
 #bloc_page{
-
 	width: 900px;
 	margin: auto;
 }
-
-
 body{
-
 	background: url('images/fondpapier.jpg');
 	background-attachment: fixed;
 	font-family: 'LinLibertine_DR';
 }
-
 h1, h2{
-
-
 	font-family: 'LinLibertine_I';
 	text-transform: uppercase;
 }
-
 h2{
-
 	font-size: 1em;
 }
 	
@@ -48,7 +38,6 @@ h2{
 
 
 section{
-
 	display: flex;
 	margin: bottom;
 }
@@ -57,45 +46,35 @@ section{
 														/* travail sur l'article*/
 
 article, aside{
-
 	text-align: justify;
 }
 
 article{
-
-
 	margin-right: 20px;
 	flex: 3;
 	background-color: rgba(150, 182, 193, 0.2);
 	height: 432px;
 }
 article div{
-
 	font-size: 1.2em;
 	text-align: left;
 }
 
 .ap1{
-
 	margin-bottom: 10px;
 	text-align: left;
 }
 
 .ap2{
-
 	margin-top: 10px;
 	text-align: left;
 }
 
 .herbe{
-
 	float: right;
 	margin: 10px;
-
 }
-
 .coesette{
-
 	float: left;
 	margin: 10px;
 }
@@ -103,22 +82,15 @@ article div{
 														/* aside*/
 
 aside{
-
 	flex: 1.2;
 	position: relative;
 	background-color: rgba(245, 238, 224, 1);
 	box-shadow: 5px 5px 5px darkgrey;
 	border-radius: 0px 0px 6px 6px;
 }
-
-
 .saybobto{
-
 	position: relative;
-	
-
 }
-
 .asidebob p{
 	width:160px;
 	position: absolute;
@@ -128,12 +100,10 @@ aside{
 	font-size:  15px;
 	text-align: left;
 }
-
 .fauxgwen{
 
 	position: relative;
 }
-
 .asidegwen p{
 	width:120px;
 	position: absolute;
@@ -142,8 +112,6 @@ aside{
 	padding-left: 175px;
 	font-size:  14px;
 	text-align: right;
-
-
 }
 
 
@@ -156,29 +124,20 @@ footer{
 	background-image: url(images/footer.jpg);
 
 	background-repeat: no-repeat;
-	
 }
-
 footer h1{
-
 font-size: 1.5em;
 color: rgb(230, 245, 185);
-
 }
-
 footer p, footer ul{
-
-
 	font-size: 1.1em;
 	color: mintcream;
 }
-
 #reseauxsociaux
 {
 	background-color: rgba(66, 49, 216, 0.2);
 	width: 30%;
 }
-
 #copains{
 background-color: rgba(66, 49, 216, 0.2);
 display: flex;
@@ -187,34 +146,23 @@ align-content: flex-start;
 	width: 60%;
 	margin-left: 30px;
 }
-
 #copains a{
-
 	text-decoration: none;
 	color: rgb(230, 245, 185);
 	margin-bottom: 30px;
 }
 
 #titraside{
-
 	width: 100%;
 	flex: 1;
-
 }
-
-#listecopains1{
-
+listecopains1{
 	width: 20%;
 	flex: 2;
-
 }
-
 #listecopains2{
-
 	width: 60%;
 	flex: 3;
-
-	
 }
 @media all and (max-width:  1024px)	{								/*écran réduit*/
 
