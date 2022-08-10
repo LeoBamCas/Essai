@@ -8,7 +8,7 @@
             </div>
             <div class="col-4">
             </div>
-            <div class="col-6">
+            <div class="col-6 align-self-end">
                 <nav>
                     <ul>
                         <li><a href="#">Accueil </a></li>
