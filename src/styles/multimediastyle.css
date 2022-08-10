@@ -3,7 +3,6 @@
 	src:  url('fonts/LinLibertine_DR.otf');
 	font-weight: normal;
 	font-style: normal;
-	
 }
 @font-face{
 	font-family: 'LinLibertine_I';
@@ -11,136 +10,61 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
-
 #bloc_page{
-	
 	width: 900px;
 	margin: auto;
 }
-
-
 body{
-
-	
-	
 	background: url('images/fondpapier.jpg');
 	background-attachment: fixed;
 	font-family: 'LinLibertine_DR';
 }
-
-
 h1, h2{
-
-
 	font-family: 'LinLibertine_I';
 	text-transform: uppercase;
 }
-
 h2{
 
 	font-size: 1em;
 }
-															/*header*/
-
-header{
-
-	background: url('images/header.jpg');
-	display: flex;
-	justify-content: space-between;
-	align-items: flex-end;
-
-
-}
-
-#logo_poisson{
-
-	display: flex;
-	fles direction: row;
-	align-items: baseline;
-
-}
-
-															/*nav*/
-nav ul{
-
-	list-style-type:  none;
-	display: flex;
-}
-
-nav li{
-
-	margin-right: 15 px;
-}
-
-nav a{
-
-	font-size: 1.3em;
-	color: ghostwhite;
-	padding: 1px;
-	padding-right: 10px;
-	text-decoration: none;
-}
-
 .banierevideo{
-
 	background: url('images/photo_video.jpg');
 	height: 150px;
 	text-align: center;
 	text-transform: uppercase;
 	color: white;
 }
-
 .banierevideo h1{
-
 	padding-top: 50px;
 	font-size: 4em;
 }
-
-
 .videolive{
-
 	margin: 20px;
 	display: flex;
 	float: left;
-	
 }
 .descriptionlive{
 	margin: 20px;
 	height: 315px;
-	
-
 }
-
 .videoclip{
 	margin: 20px;
 	margin-bottom: 20px;
 	float: right;
 	display: flex;
 	transition: transform .1s;
-
 }
-
 .videoclip:hover{
-
 	transform: scale(1.3);
-
-
 }
-
 .videolive:hover{
 	transform: scale(1.3);
 }
-
 .descriptionclip{
-
 	margin: 20px;
 	height: 315px;
 }
-
-
 .baniereaudio{
-
 	background: url('images/photo_video.jpg');
 	display: flex;
 	height: 150px;
@@ -148,62 +72,40 @@ nav a{
 	width: 100%;
 }
 .baniereaudio h1{
-
 	color: white;
 	margin-top: 50px;
 	margin-left: 37%;
 	font-size: 4em;
 }
-
-
 .bandcamp{
-
 		text-align: center;
 		margin: 20px;
-	
 }
-
-
-
-
 .demo{
 	text-align: center;
 	margin: 20px;
-
-
 }
                                                                         /* début du footer*/
 
 footer{
 	display: flex;
 	height: 200px;
-
 	background-image: url(images/footer.jpg);
-
 	background-repeat: no-repeat;
-	
 }
-
 footer h1{
-
 font-size: 1.5em;
 color: rgb(230, 245, 185);
-
 }
-
 footer p, footer ul{
-
-
 	font-size: 1.1em;
 	color: mintcream;
 }
-
 #reseauxsociaux
 {
 	background-color: rgba(66, 49, 216, 0.2);
 	width: 30%;
 }
-
 #copains{
 background-color: rgba(66, 49, 216, 0.2);
 display: flex;
@@ -212,32 +114,20 @@ align-content: flex-start;
 	width: 60%;
 	margin-left: 30px;
 }
-
 #copains a{
-
 	text-decoration: none;
 	color: rgb(230, 245, 185);
 	margin-bottom: 30px;
 }
-
 #titraside{
-
 	width: 100%;
-	flex: 1;
-
+		flex: 1;
 }
-
 #listecopains1{
-
 	width: 20%;
 	flex: 2;
-
 }
-
 #listecopains2{
-
 	width: 60%;
 	flex: 3;
-
-	
 }
