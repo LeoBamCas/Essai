@@ -1,0 +1,30 @@
+														/*header*/
+
+header {
+    background: url('../public/img/header.jpg');
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+#logo_poisson {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+														/*nav*/
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+nav li {
+    margin-right: 15 px;
+}
+nav a {
+    font-size: 1.3em;
+    color: ghostwhite;
+    padding: 1px;
+    padding-right: 5px;
+    padding:5px;
+    text-decoration: none;
+}
