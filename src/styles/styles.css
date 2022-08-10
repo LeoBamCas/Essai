@@ -5,13 +5,13 @@
 
 @font-face{
 	font-family: 'LinLibertine_DR';
-	src:  url('fonts/LinLibertine_DR.otf');
+	src:  url('../public/fonts/LinLibertine_DR.otf');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face{
 	font-family: 'LinLibertine_I';
-	src:  url('fonts/LinLibertine_I.otf');
+	src:  url('../public/fonts/LinLibertine_I.otf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -21,7 +21,7 @@
 	margin: auto;
 }
 body{
-	background: url('images/fondpapier.jpg');
+	background: url('../public/img/fondpapier.jpg');
 	background-attachment: fixed;
 	font-family: 'LinLibertine_DR';
 }
