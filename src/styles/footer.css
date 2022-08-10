@@ -1,0 +1,46 @@
+
+footer{
+	display: flex;
+	height: 200px;
+
+	background-image: url(../public/img/footer.jpg);
+    background-size: cover;
+	background-repeat: no-repeat;
+}
+footer h1{
+font-size: 1.5em;
+color: rgb(230, 245, 185);
+}
+footer p, footer ul{
+	font-size: 1.1em;
+	color: mintcream;
+}
+#reseauxsociaux
+{
+	width: 30%;
+}
+#copains{
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+	width: 60%;
+	margin-left: 30px;
+}
+#copains a{
+	text-decoration: none;
+	color: rgb(230, 245, 185);
+	margin-bottom: 30px;
+}
+
+#titraside{
+	width: 100%;
+	flex: 1;
+}
+listecopains1{
+	width: 20%;
+	flex: 2;
+}
+#listecopains2{
+	width: 60%;
+	flex: 3;
+}

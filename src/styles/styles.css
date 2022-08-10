@@ -1,35 +1,36 @@
 												/*import du header*/
 
 @import url("header.css");
+@import url("footer.css");
 
 
-@font-face{
+@font-face {
 	font-family: 'LinLibertine_DR';
 	src:  url('../public/fonts/LinLibertine_DR.otf');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face{
+@font-face {
 	font-family: 'LinLibertine_I';
 	src:  url('../public/fonts/LinLibertine_I.otf');
 	font-weight: normal;
 	font-style: normal;
 }
 
-#bloc_page{
+#bloc_page {
 	width: 900px;
 	margin: auto;
 }
-body{
+body {
 	background: url('../public/img/fondpapier.jpg');
 	background-attachment: fixed;
 	font-family: 'LinLibertine_DR';
 }
-h1, h2{
+h1, h2 {
 	font-family: 'LinLibertine_I';
 	text-transform: uppercase;
 }
-h2{
+h2 {
 	font-size: 1em;
 }
 	
@@ -37,7 +38,7 @@ h2{
 														/* démarrage de la section*/
 
 
-section{
+section {
 	display: flex;
 	margin: bottom;
 }
@@ -45,53 +46,53 @@ section{
 
 														/* travail sur l'article*/
 
-article, aside{
+article, aside {
 	text-align: justify;
 }
 
-article{
+article {
 	margin-right: 20px;
 	flex: 3;
 	background-color: rgba(150, 182, 193, 0.2);
 	height: 432px;
 }
-article div{
+article div {
 	font-size: 1.2em;
 	text-align: left;
 }
 
-.ap1{
+.ap1 {
 	margin-bottom: 10px;
 	text-align: left;
 }
 
-.ap2{
+.ap2 {
 	margin-top: 10px;
 	text-align: left;
 }
 
-.herbe{
+.herbe {
 	float: right;
 	margin: 10px;
 }
-.coesette{
+.coesette {
 	float: left;
 	margin: 10px;
 }
 
 														/* aside*/
 
-aside{
+aside {
 	flex: 1.2;
 	position: relative;
 	background-color: rgba(245, 238, 224, 1);
 	box-shadow: 5px 5px 5px darkgrey;
 	border-radius: 0px 0px 6px 6px;
 }
-.saybobto{
+.saybobto {
 	position: relative;
 }
-.asidebob p{
+.asidebob p {
 	width:160px;
 	position: absolute;
 	color: white;
@@ -100,11 +101,11 @@ aside{
 	font-size:  15px;
 	text-align: left;
 }
-.fauxgwen{
+.fauxgwen {
 
 	position: relative;
 }
-.asidegwen p{
+.asidegwen p {
 	width:120px;
 	position: absolute;
 	color: black;
