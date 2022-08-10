@@ -1,14 +1,14 @@
 														/*header*/
 
 header {
-    background: url('images/header.jpg');
+    background: url('public/img/header.jpg');
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
 }
 #logo_poisson {
     display: flex;
-    fles direction: row;
+    flex-direction: row;
     align-items: baseline;
 }
 
