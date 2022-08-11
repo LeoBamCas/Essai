@@ -1,223 +1,144 @@
 												/*import du header*/
-
 @import url("header.css");
+@import url("footer.css");
 
 
-@font-face{
+@font-face {
 	font-family: 'LinLibertine_DR';
-	src:  url('../public/fonts/LinLibertine_DR.otf');
+	src: url('../public/fonts/LinLibertine_DR.otf');
 	font-weight: normal;
 	font-style: normal;
 }
-@font-face{
+@font-face {
 	font-family: 'LinLibertine_I';
-	src:  url('../public/fonts/LinLibertine_I.otf');
+	src: url('../public/fonts/LinLibertine_I.otf');
 	font-weight: normal;
 	font-style: normal;
 }
-
-#bloc_page{
+#bloc_page {
 	width: 900px;
 	margin: auto;
 }
-body{
+body {
 	background: url('../public/img/fondpapier.jpg');
 	background-attachment: fixed;
 	font-family: 'LinLibertine_DR';
 }
-h1, h2{
+h1, h2 {
 	font-family: 'LinLibertine_I';
 	text-transform: uppercase;
 }
-h2{
+h2 {
 	font-size: 1em;
 }
-	
 
-														/* démarrage de la section*/
-
-
-section{
+													/* démarrage de la section*/
+section {
 	display: flex;
 	margin: bottom;
 }
 
-
-														/* travail sur l'article*/
-
-article, aside{
+													/* travail sur l'article*/
+article,
+aside {
 	text-align: justify;
 }
-
-article{
+article {
 	margin-right: 20px;
 	flex: 3;
 	background-color: rgba(150, 182, 193, 0.2);
 	height: 432px;
 }
-article div{
+article div {
 	font-size: 1.2em;
 	text-align: left;
 }
-
-.ap1{
+.ap1 {
 	margin-bottom: 10px;
 	text-align: left;
 }
-
-.ap2{
+.ap2 {
 	margin-top: 10px;
 	text-align: left;
 }
-
-.herbe{
+.herbe {
 	float: right;
 	margin: 10px;
 }
-.coesette{
+.coesette {
 	float: left;
 	margin: 10px;
 }
 
 														/* aside*/
-
-aside{
+aside {
 	flex: 1.2;
 	position: relative;
 	background-color: rgba(245, 238, 224, 1);
 	box-shadow: 5px 5px 5px darkgrey;
 	border-radius: 0px 0px 6px 6px;
 }
-.saybobto{
+.saybobto {
 	position: relative;
 }
-.asidebob p{
-	width:160px;
+.asidebob p {
+	width: 160px;
 	position: absolute;
 	color: white;
 	z-index: 1;
 	padding-left: 5px;
-	font-size:  15px;
+	font-size: 15px;
 	text-align: left;
 }
-.fauxgwen{
+.fauxgwen {
 
 	position: relative;
 }
-.asidegwen p{
-	width:120px;
+.asidegwen p {
+	width: 120px;
 	position: absolute;
 	color: black;
 	z-index: 1;
 	padding-left: 175px;
-	font-size:  14px;
+	font-size: 14px;
 	text-align: right;
 }
+@media all and (max-width: 1024px) {
+													/*écran réduit*/
 
 
-														/* début du foot*/
-
-footer{
-	display: flex;
-	height: 200px;
-
-	background-image: url(images/footer.jpg);
-
-	background-repeat: no-repeat;
+	#bloc_page {
+		width: auto;
+	}
+	nav {
+		width: auto;
+		text-align: left;
+	}
+	nav ul {
+		flex-direction: column;
+	}
+	nav li {
+		padding-left: 4px;
+	}
+	nav a {
+		font-size: 1.1em;
+	}
+	nav a:hover {
+		border-bottom: 0;
+	}
+	.baniere {
+		display: none;
+	}
+	section {
+		flex-direction: column;
+	}
+	article,aside {
+		width: auto;
+		margin-bottom: 15px;
+	}
+	aside {
+		display: flex;
+		justify-content: space-around;
+		background-color: rgba(150, 182, 193, 0.2);
+	}
 }
-footer h1{
-font-size: 1.5em;
-color: rgb(230, 245, 185);
-}
-footer p, footer ul{
-	font-size: 1.1em;
-	color: mintcream;
-}
-#reseauxsociaux
-{
-	background-color: rgba(66, 49, 216, 0.2);
-	width: 30%;
-}
-#copains{
-background-color: rgba(66, 49, 216, 0.2);
-display: flex;
-flex-wrap: wrap;
-align-content: flex-start;
-	width: 60%;
-	margin-left: 30px;
-}
-#copains a{
-	text-decoration: none;
-	color: rgb(230, 245, 185);
-	margin-bottom: 30px;
-}
-
-#titraside{
-	width: 100%;
-	flex: 1;
-}
-listecopains1{
-	width: 20%;
-	flex: 2;
-}
-#listecopains2{
-	width: 60%;
-	flex: 3;
-}
-@media all and (max-width:  1024px)	{								/*écran réduit*/
-
-
-			#bloc_page{
-				width: auto;
-			}	
-
-
-			nav
-			{
-				width: auto;
-				text-align: left;
-			}
-
-			nav ul{
-				flex-direction: column;
-			}
-			nav li{
-				padding-left: 4px;
-
-			}
-			nav a{
-				font-size: 1.1em;
-			}
-			nav a:hover{
-				border-bottom: 0;
-			}
-			.baniere{
-				display: none;
-			}
-			section{
-				flex-direction: column;
-			}
-			article, aside{
-				width: auto;
-				margin-bottom: 15px;
-			}
-			aside{
-				display: flex;
-				justify-content: space-around;
-				background-color: rgba(150, 182, 193, 0.2);
-			}
-			footer{
-
-				height: auto;
-				background-color: rgba(0, 0, 30, 1.0);
-				background-image: none;
-			}
-			#copains{
-				background-color:rgba(0, 0, 30, 1.0);
-			}
-
-			
-				
-			
-
-}								
