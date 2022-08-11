@@ -16,7 +16,6 @@
 	font-weight: normal;
 	font-style: normal;
 }
-
 #bloc_page {
 	width: 900px;
 	margin: auto;
@@ -33,23 +32,15 @@ h1, h2 {
 h2 {
 	font-size: 1em;
 }
-	
-
-														/* démarrage de la section*/
-
-
+															/* démarrage de la section*/
 section {
 	display: flex;
 	margin: bottom;
 }
-
-
-														/* travail sur l'article*/
-
+													/* travail sur l'article*/
 article, aside {
 	text-align: justify;
 }
-
 article {
 	margin-right: 20px;
 	flex: 3;
@@ -60,17 +51,14 @@ article div {
 	font-size: 1.2em;
 	text-align: left;
 }
-
 .ap1 {
 	margin-bottom: 10px;
 	text-align: left;
 }
-
 .ap2 {
 	margin-top: 10px;
 	text-align: left;
 }
-
 .herbe {
 	float: right;
 	margin: 10px;
@@ -79,9 +67,7 @@ article div {
 	float: left;
 	margin: 10px;
 }
-
 														/* aside*/
-
 aside {
 	flex: 1.2;
 	position: relative;
@@ -120,48 +106,37 @@ aside {
 #bloc_page {
 		width: auto;
 }
-
-
 nav {
 		width: auto;
 		text-align: left;
 }
-
 nav ul {
 		flex-direction: column;
 }
-
 nav li {
 		padding-left: 4px;
-
 }
-
 nav a {
 		font-size: 1.1em;
 }
 nav a:hover {
 		border-bottom: 0;
 }
-
 .baniere {
 		display: none;
 }
-
 section {
 		flex-direction: column;
 }
-
 article,aside {
 		width: auto;
 		margin-bottom: 15px;
 }
-
 aside {
 		display: flex;
 		justify-content: space-around;
 		background-color: rgba(150, 182, 193, 0.2);
 }
-
 footer {
 
 		height: auto;
