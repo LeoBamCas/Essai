@@ -21,7 +21,7 @@
 	margin: auto;
 }
 body {
-	background: url('../public/img/fondpapier.jpg');
+	background-color: rgb(15, 0, 25);
 	background-attachment: fixed;
 	font-family: 'LinLibertine_DR';
 }

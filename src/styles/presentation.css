@@ -15,7 +15,7 @@ article {
 	height: auto;
 }
 article div {
-	font-size: 1.2em;
+	font-size: 1.1em;
 	text-align: left;
 }
 .ap1 {
@@ -29,6 +29,7 @@ article div {
 .herbe {
 	float: right;
 	margin: 10px;
+    height: fit-content;
 }
 .coesette {
 	float: left;
