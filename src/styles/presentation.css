@@ -1,0 +1,70 @@
+													/* démarrage de la section*/
+section {
+	display: flex;
+	margin: bottom;
+}
+
+													/* travail sur l'article*/
+article,
+aside {
+	text-align: justify;
+}
+article {
+	margin-right: 20px;
+	flex: 3;
+	height: auto;
+}
+article div {
+	font-size: 1.2em;
+	text-align: left;
+}
+.ap1 {
+	margin-bottom: 10px;
+	text-align: left;
+}
+.ap2 {
+	margin-top: 10px;
+	text-align: left;
+}
+.herbe {
+	float: right;
+	margin: 10px;
+}
+.coesette {
+	float: left;
+	margin: 10px;
+}
+
+														/* aside*/
+aside {
+	flex: 1.2;
+	position: relative;
+	background-color: rgba(245, 238, 224, 1);
+	box-shadow: 5px 5px 5px darkgrey;
+	border-radius: 0px 0px 6px 6px;
+}
+.saybobto {
+	position: relative;
+}
+.asidebob p {
+	width: 160px;
+	position: absolute;
+	color: white;
+	z-index: 1;
+	padding-left: 5px;
+	font-size: 15px;
+	text-align: left;
+}
+.fauxgwen {
+
+	position: relative;
+}
+.asidegwen p {
+	width: 120px;
+	position: absolute;
+	color: black;
+	z-index: 1;
+	padding-left: 175px;
+	font-size: 14px;
+	text-align: right;
+}
