@@ -1,9 +1,9 @@
-												/*import du header*/
+												/*import des .css*/
 @import url("header.css");
 @import url("presentation.css");
 @import url("footer.css");
 
-
+												/*fonts*/
 @font-face {
 	font-family: 'LinLibertine_DR';
 	src: url('../public/fonts/LinLibertine_DR.otf');
@@ -15,7 +15,7 @@
 	src: url('../public/fonts/LinLibertine_I.otf');
 	font-weight: normal;
 	font-style: normal;
-}
+}												/*style commun*/
 #bloc_page {
 	width: 900px;
 	margin: auto;
@@ -28,6 +28,7 @@ body {
 h1, h2 {
 	font-family: 'LinLibertine_I';
 	text-transform: uppercase;
+	color: aliceblue;
 }
 h2 {
 	font-size: 1em;

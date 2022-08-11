@@ -13,6 +13,7 @@ article {
 	margin-right: 20px;
 	flex: 3;
 	height: auto;
+    color: aliceblue;
 }
 article div {
 	font-size: 1.1em;
