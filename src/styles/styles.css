@@ -114,111 +114,58 @@ aside {
 	font-size:  14px;
 	text-align: right;
 }
-
-
-														/* début du foot*/
-
-footer{
-	display: flex;
-	height: 200px;
-
-	background-image: url(images/footer.jpg);
-
-	background-repeat: no-repeat;
-}
-footer h1{
-font-size: 1.5em;
-color: rgb(230, 245, 185);
-}
-footer p, footer ul{
-	font-size: 1.1em;
-	color: mintcream;
-}
-#reseauxsociaux
-{
-	background-color: rgba(66, 49, 216, 0.2);
-	width: 30%;
-}
-#copains{
-background-color: rgba(66, 49, 216, 0.2);
-display: flex;
-flex-wrap: wrap;
-align-content: flex-start;
-	width: 60%;
-	margin-left: 30px;
-}
-#copains a{
-	text-decoration: none;
-	color: rgb(230, 245, 185);
-	margin-bottom: 30px;
-}
-
-#titraside{
-	width: 100%;
-	flex: 1;
-}
-listecopains1{
-	width: 20%;
-	flex: 2;
-}
-#listecopains2{
-	width: 60%;
-	flex: 3;
-}
 @media all and (max-width:  1024px)	{								/*écran réduit*/
 
 
-			#bloc_page{
-				width: auto;
-			}	
+#bloc_page {
+		width: auto;
+}
 
 
-			nav
-			{
-				width: auto;
-				text-align: left;
-			}
+nav {
+		width: auto;
+		text-align: left;
+}
 
-			nav ul{
-				flex-direction: column;
-			}
-			nav li{
-				padding-left: 4px;
+nav ul {
+		flex-direction: column;
+}
 
-			}
-			nav a{
-				font-size: 1.1em;
-			}
-			nav a:hover{
-				border-bottom: 0;
-			}
-			.baniere{
-				display: none;
-			}
-			section{
-				flex-direction: column;
-			}
-			article, aside{
-				width: auto;
-				margin-bottom: 15px;
-			}
-			aside{
-				display: flex;
-				justify-content: space-around;
-				background-color: rgba(150, 182, 193, 0.2);
-			}
-			footer{
+nav li {
+		padding-left: 4px;
 
-				height: auto;
-				background-color: rgba(0, 0, 30, 1.0);
-				background-image: none;
-			}
-			#copains{
-				background-color:rgba(0, 0, 30, 1.0);
-			}
+}
 
-			
-				
-			
+nav a {
+		font-size: 1.1em;
+}
+nav a:hover {
+		border-bottom: 0;
+}
 
+.baniere {
+		display: none;
+}
+
+section {
+		flex-direction: column;
+}
+
+article,aside {
+		width: auto;
+		margin-bottom: 15px;
+}
+
+aside {
+		display: flex;
+		justify-content: space-around;
+		background-color: rgba(150, 182, 193, 0.2);
+}
+
+footer {
+
+		height: auto;
+		background-color: rgba(0, 0, 30, 1.0);
+		background-image: none;
+}
 }								
