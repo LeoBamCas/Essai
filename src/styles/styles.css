@@ -1,18 +1,17 @@
 												/*import du header*/
-
 @import url("header.css");
 @import url("footer.css");
 
 
 @font-face {
 	font-family: 'LinLibertine_DR';
-	src:  url('../public/fonts/LinLibertine_DR.otf');
+	src: url('../public/fonts/LinLibertine_DR.otf');
 	font-weight: normal;
 	font-style: normal;
 }
 @font-face {
 	font-family: 'LinLibertine_I';
-	src:  url('../public/fonts/LinLibertine_I.otf');
+	src: url('../public/fonts/LinLibertine_I.otf');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -32,13 +31,16 @@ h1, h2 {
 h2 {
 	font-size: 1em;
 }
-															/* démarrage de la section*/
+
+													/* démarrage de la section*/
 section {
 	display: flex;
 	margin: bottom;
 }
+
 													/* travail sur l'article*/
-article, aside {
+article,
+aside {
 	text-align: justify;
 }
 article {
@@ -67,6 +69,7 @@ article div {
 	float: left;
 	margin: 10px;
 }
+
 														/* aside*/
 aside {
 	flex: 1.2;
@@ -79,12 +82,12 @@ aside {
 	position: relative;
 }
 .asidebob p {
-	width:160px;
+	width: 160px;
 	position: absolute;
 	color: white;
 	z-index: 1;
 	padding-left: 5px;
-	font-size:  15px;
+	font-size: 15px;
 	text-align: left;
 }
 .fauxgwen {
@@ -92,55 +95,50 @@ aside {
 	position: relative;
 }
 .asidegwen p {
-	width:120px;
+	width: 120px;
 	position: absolute;
 	color: black;
 	z-index: 1;
 	padding-left: 175px;
-	font-size:  14px;
+	font-size: 14px;
 	text-align: right;
 }
-@media all and (max-width:  1024px)	{								/*écran réduit*/
+@media all and (max-width: 1024px) {
+													/*écran réduit*/
 
 
-#bloc_page {
+	#bloc_page {
 		width: auto;
-}
-nav {
+	}
+	nav {
 		width: auto;
 		text-align: left;
-}
-nav ul {
+	}
+	nav ul {
 		flex-direction: column;
-}
-nav li {
+	}
+	nav li {
 		padding-left: 4px;
-}
-nav a {
+	}
+	nav a {
 		font-size: 1.1em;
-}
-nav a:hover {
+	}
+	nav a:hover {
 		border-bottom: 0;
-}
-.baniere {
+	}
+	.baniere {
 		display: none;
-}
-section {
+	}
+	section {
 		flex-direction: column;
-}
-article,aside {
+	}
+	article,aside {
 		width: auto;
 		margin-bottom: 15px;
-}
-aside {
+	}
+	aside {
 		display: flex;
 		justify-content: space-around;
 		background-color: rgba(150, 182, 193, 0.2);
+	}
 }
-footer {
-
-		height: auto;
-		background-color: rgba(0, 0, 30, 1.0);
-		background-image: none;
-}
-}								
