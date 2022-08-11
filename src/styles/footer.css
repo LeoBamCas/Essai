@@ -15,8 +15,12 @@ color: rgb(230, 245, 185);
 }
 footer p, footer ul {
 	font-size: 1.1em;
-	color: mintcream;
     list-style-type: none;
+}
+footer a {
+
+	color: rgb(230, 245, 185);
+	text-decoration: none;
 }
 #reseauxsociaux
 {
@@ -43,7 +47,4 @@ align-content: flex-start;
 	width: 60%;
 	margin-bottom: 30px;
 }
-#listecopains1 {
-	text-decoration: none;
-	color: rgb(230, 245, 185);
-}
+

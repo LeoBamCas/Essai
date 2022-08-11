@@ -14,18 +14,26 @@
             <div class="col-1">
                 <ul>
                     <li><a href="https://www.facebook.com/Overflowguy"><img src="../public/img/logofb.png" height="70px" alt="logo fb" class="logofb" /></a></li>
-                    <li><a href="https://overflowguy.bandcamp.com/album/what-now"><img src="../public/img/logobandcamp.png" height="70px" alt="logo bandcamp" class="logo bandcamp" /></a></li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <ul>
+                    <li><a href="https://overflowguy.bandcamp.com/album/what-now"><img src="../public/img/logobandcamp.png" height="70px" width="80px" alt="logo bandcamp" class="logo bandcamp" /></a></li>
                 </ul>
             </div>
             <div class="col-1">
                 <ul>
                     <li><a href="https://www.youtube.com/channel/UCBZCRzvvBmTgGD8qEVFUrEw"><img src="../public/img/logoyt.png" height="70px" alt="logo you tube" class="logo_you_tube" /></a></li>
+                </ul>
+            </div>
+            <div class="col-1">
+                <ul>
                     <li><a href="https://www.instagram.com/overflowguy/?hl=fr"><img src="../public/img/instagram.png" height="75px" width="70px" alt="logo instagram" class="logo_instagram"></a></li>
                 </ul>
             </div>
-            <div class="col-4">
-            </div>
             <div class="col-3">
+            </div>
+            <div class="col-2">
                 <ul class="listecopains1">
                     <li><a href="https://malauxyeux.bandcamp.com/">Mal aux yeux</a></li>
                     <li><a href="https://vuparben.bandcamp.com/">Vu par Ben</a></li>
