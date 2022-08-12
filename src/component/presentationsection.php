@@ -1,4 +1,6 @@
 <section>
+    <br/>
+    <br/>
     <div class="container">
         <div class="row">
             <div class="col text-center">
@@ -74,4 +76,6 @@
                 </div>
         </div>
     </div>
+    <br/>
+    <br/>
 </section>
