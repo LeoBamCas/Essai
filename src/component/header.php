@@ -15,7 +15,7 @@
                         <li><a href="presentation.php"> Présentation </a></li>
                         <li><a href="historique.php"> Historique </a></li>
                         <li><a href="media.php"> Multimédia </a></li>
-                        <li><a href="#"> Contact </a></li>
+                        <li><a href="contact.php"> Contact </a></li>
                     </ul>
                 </nav>
             </div>
