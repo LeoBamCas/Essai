@@ -30,7 +30,7 @@ h1, h2 {
 	text-transform: uppercase;
 	color: aliceblue;
 }
-p{
+p, ul{
 	color: aliceblue;
 }
 h2 {
