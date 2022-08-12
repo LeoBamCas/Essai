@@ -1,20 +1,3 @@
-    <!--
-    <aside>
-        <div class="asidebob">
-            <h2>Bob,<br /> guitare et voix lead</h2>
-            <p>Bob mange des mini-beignets. Il paraîtrait même que quand il passe à aldi, il n'en reste JAMAIS.<br />Parfois il joue de
-                la guitare et torture son bigsby avec la rage d'un clebard de stalker (le jeu, pas le film) en beuglant tout son saoul entre
-                deux miaulement que ne renierait pas un thom yorke perdu au fond d'une contrebasse.</p>
-            <img src="public/img/saybobtodeterminism.jpg" alt="bob avec un ventilateur" class="saybobto" />
-        </div>
-        <div class="asidegwen">
-            <h2>Gwen,<br /> batterie et voix lointaine</h2>
-            <p>Gwen mange des croissants aux amandes et incite les mécréants à boire de la boisson énergisante bon marché.De temps en temps il
-                fait résonner des toms accordés presque avec soin et claquer des cymbales à faire vomir les sirènes. Celles du stade bollaert, pas
-                les femmes volantes cannibales.</p>
-            <img src="public/img/fauxgwen.jpg" alt="gwen on fire" class="fauxgwen" />
-        </div>
-    </aside> -->
 <section>
     <div class="container">
         <div class="row">
@@ -56,37 +39,35 @@
             <div class="col-1">
             </div>
         </div>
-        <div  class="row">
+        <div class="row">
             <div class="col text-center">
                 <h1>Mais qui sont Overflow Guy ?</h1>
             </div>
         </div>
         <div class="row">
             <div class="col text-center">
-                <h2>Bob,<br /> guitare et voix lead</h2>
-            </div>
-            <div class="col text-center">
                 <h2>Gwen,<br /> batterie et voix lointaine</h2>
             </div>
-        </div>
-        <div class="row">
-            <div class="col">
-                <p>Bob mange des mini-beignets. Il paraîtrait même que quand il passe à aldi, il n'en reste JAMAIS.<br />Parfois il joue de
-                    la guitare et torture son bigsby avec la rage d'un clebard de stalker (le jeu, pas le film) en beuglant tout son saoul entre
-                    deux miaulement que ne renierait pas un thom yorke perdu au fond d'une contrebasse.</p>
-            </div>
-            <div class="col">
-                <img src="public/img/saybobtodeterminism.jpg" alt="bob avec un ventilateur" class="saybobto" />
-            </div>
-            <div class="col">
-                <img src="public/img/fauxgwen.jpg" alt="gwen on fire" class="fauxgwen" />
-            </div>
-            <div class="col">
-                <p>Gwen mange des croissants aux amandes et incite les mécréants à boire de la boisson énergisante bon marché.De temps en temps il
-                    fait résonner des toms accordés presque avec soin et claquer des cymbales à faire vomir les sirènes. Celles du stade bollaert, pas
-                    les femmes volantes cannibales.</p>
+            <div class="col text-center">
+                <h2>Bob,<br /> guitare et voix lead</h2>
             </div>
         </div>
-    </div>
+        <div class="row justify-content-center">
+            <div class="article">
+                <div class="col">
+                    <p class="gens">Gwen mange des croissants aux amandes et incite les mécréants à boire de la boisson énergisante bon marché.De temps en temps il
+                        fait résonner des toms accordés presque avec soin et claquer des cymbales à faire vomir les sirènes. Celles du stade bollaert, pas
+                        les femmes volantes cannibales.</p>
+                </div>
+                <div class="col">
+                    <img src="public/img/qui_sont.jpg" alt="bob avec un ventilateur" class="quisont" />
+                </div>
+                <div class="col">
+                    <p class="gens">Bob mange des mini-beignets. Il paraîtrait même que quand il passe à aldi, il n'en reste JAMAIS.<br />Parfois il joue de
+                        la guitare et torture son bigsby avec la rage d'un clebard de stalker (le jeu, pas le film) en beuglant tout son saoul entre
+                        deux miaulement que ne renierait pas un thom yorke perdu au fond d'une contrebasse.</p>
+                </div>
+            </div>
+        </div>
     </div>
 </section>

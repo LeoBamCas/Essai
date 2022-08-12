@@ -30,6 +30,9 @@ h1, h2 {
 	text-transform: uppercase;
 	color: aliceblue;
 }
+p{
+	color: aliceblue;
+}
 h2 {
 	font-size: 1em;
 }
