@@ -11,8 +11,8 @@
             <div class="col-6 align-self-end">
                 <nav>
                     <ul>
-                        <li><a href="#">Accueil </a></li>
-                        <li><a href="#"> Présentation </a></li>
+                        <li><a href="index.php">Accueil </a></li>
+                        <li><a href="presentation.php"> Présentation </a></li>
                         <li><a href="#"> Historique </a></li>
                         <li><a href="multimedia.html"> Multimédia </a></li>
                         <li><a href="#"> Contact </a></li>

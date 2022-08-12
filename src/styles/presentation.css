@@ -1,0 +1,42 @@
+													/* démarrage de la section*/
+section {
+	display: flex;
+	margin: bottom;
+}
+
+													/* travail sur l'article*/
+
+article {
+	margin-right: 20px;
+	flex: 3;
+	height: auto;
+    color: aliceblue;
+}
+article div {
+	font-size: 1.1em;
+	text-align: left;
+}
+.ap1 {
+	margin-bottom: 10px;
+	text-align: left;
+}
+.ap2 {
+	margin-top: 10px;
+	text-align: left;
+}
+.herbe {
+	float: right;
+	margin: 10px;
+    height: fit-content;
+}
+.coesette {
+	float: left;
+	margin: 10px;
+}
+.quisont {
+	position: relative;
+	width: 75%;
+}
+.gens {
+	width: auto;
+}
