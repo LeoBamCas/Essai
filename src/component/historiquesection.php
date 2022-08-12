@@ -37,6 +37,8 @@
             <img class="lacrypte img-fluid"  src="public/img/historique_concert.jpg">
         </div>
     </div>
+    <br/>
+    <br/>
     <div class="row">
         <div class="col text-center">
             <h1>Enregistrements, médias et résidences</h1>
