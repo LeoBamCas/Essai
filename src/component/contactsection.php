@@ -8,7 +8,7 @@
     </div>
     <div class="row">
         <div class="col text-center">
-            <p>ou nous contacter directement sur <a url="mailto:overflow.guy@lavache.com">overflow.guy@lavache.com</a></p>
+            <p>ou nous contacter directement sur <a href="mailto:overflow.guy@lavache.com">overflow.guy@lavache.com</a></p>
         </div>
     </div>
     <br />

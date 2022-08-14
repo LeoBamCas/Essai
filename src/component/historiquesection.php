@@ -41,7 +41,7 @@
     <br/>
     <div class="row">
         <div class="col text-center">
-            <h1>Enregistrements, médias et résidences</h1>
+            <h1>Enregistrements, medias et residences</h1>
         </div>
     </div>
     <div class="row">

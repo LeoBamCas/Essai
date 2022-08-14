@@ -30,6 +30,7 @@ h1, h2 {
 	font-family: 'LinLibertine_I';
 	text-transform: uppercase;
 	color: aliceblue;
+	padding: 15px;
 }
 p, ul{
 	color: aliceblue;
